@@ -1,0 +1,15 @@
+<unit-test>
+    <artifacts>
+        <test-artifact>
+            <artifact>/RoutingConfigs/src/main/synapse-config/api/ArithmaticOperationServiceAPI.xml</artifact>
+        </test-artifact>
+        <supportive-artifacts>
+            <artifact>/RoutingConfigs/src/main/synapse-config/endpoints/NumberDivisionEP.xml</artifact>
+            <artifact>/RoutingConfigs/src/main/synapse-config/endpoints/NumberAdditionEP.xml</artifact>
+        </supportive-artifacts>
+        <registry-resources/>
+        <connector-resources/>
+    </artifacts>
+    <test-cases/>
+    <mock-services/>
+</unit-test>

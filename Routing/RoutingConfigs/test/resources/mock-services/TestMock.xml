@@ -1,0 +1,23 @@
+<mock-service>
+    <service-name>TestEP</service-name>
+    <port>9000</port>
+    <context>/testEP</context>
+    <resources>
+        <resource>
+            <sub-context>/</sub-context>
+            <method>GET</method>
+            <request>
+                <headers>
+                    <header name="Content-Type" value="application/xml"/>
+                </headers>
+            </request>
+            <response>
+                <status-code>202</status-code>
+                <payload><![CDATA[<serv>None</serv>]]></payload>
+                <headers>
+                    <header name="Content-Type" value="application/xml"/>
+                </headers>
+            </response>
+        </resource>
+    </resources>
+</mock-service>
